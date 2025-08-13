@@ -2,6 +2,27 @@ apiVersion: v1
 entries:
   k8s-mediamanager:
   - apiVersion: v2
+    appVersion: 1.6.4
+    created: "2025-08-13T07:47:15.21996365Z"
+    description: Kubernetes media manager helm chart based on onedr0p rootless images
+    digest: 6b3df16945240dea0e29cf4d6f8665a3e2d32784bff4d1b22bb64df5a37af92c
+    home: https://github.com/sekops-ch/k8s-mediamanager
+    keywords:
+    - sonarr
+    - radarr
+    - lidarr
+    - transmission
+    - plex
+    - media
+    maintainers:
+    - email: bernard.gutermann@gmail.com
+      name: bernardgut
+    name: k8s-mediamanager
+    type: application
+    urls:
+    - https://github.com/sekops-ch/k8s-mediamanager/releases/download/k8s-mediamanager-1.6.4/k8s-mediamanager-1.6.4.tgz
+    version: 1.6.4
+  - apiVersion: v2
     appVersion: 1.6.3
     created: "2025-08-12T06:31:34.626104348Z"
     description: Kubernetes media manager helm chart based on onedr0p rootless images
@@ -198,4 +219,4 @@ entries:
     urls:
     - https://github.com/sekops-ch/k8s-mediamanager/releases/download/k8s-mediamanager-1.0.1/k8s-mediamanager-1.0.1.tgz
     version: 1.0.1
-generated: "2025-08-12T06:31:34.6261588Z"
+generated: "2025-08-13T07:47:15.220037969Z"
